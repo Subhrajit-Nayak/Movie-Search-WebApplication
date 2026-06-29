@@ -1,0 +1,26 @@
+body {
+  background-color: #111827;
+  color: white;
+  min-height: 100vh;
+}
+
+.movie-card {
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.no-image {
+  height: 400px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
